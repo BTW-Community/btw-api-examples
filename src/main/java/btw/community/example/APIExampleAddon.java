@@ -16,5 +16,7 @@ public class APIExampleAddon extends BTWAddon {
 
         ExampleAchievementTrigger.init();
         ExampleAchievements.init();
+
+        ExampleTags.init();
     }
 }
