@@ -108,7 +108,8 @@ public class ExampleAchievements {
                 .name(new ResourceLocation("btwce_api_example", "example_4"))
                 .icon(Item.pocketSundial)
                 .displayLocation(1, -2)
-                .triggerCondition(worldData -> worldData.dimension().toLowerCase(Locale.ROOT).equals("overworld") && worldData.ticksElapsed() > 100)
+                .triggerCondition(worldData ->
+                        worldData.dimension().toLowerCase(Locale.ROOT).equals("overworld") && worldData.ticksElapsed() > 100)
                 .parents(EXAMPLE_KILL)
                 .build()
                 .registerAchievement(EXAMPLE);

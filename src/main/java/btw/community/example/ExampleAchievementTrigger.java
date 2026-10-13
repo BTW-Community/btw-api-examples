@@ -5,7 +5,10 @@ import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.WorldServer;
 
 /**
- * Covers defining a new achievement trigger class
+ * Covers defining a new achievement trigger class.
+ * <p>
+ * For the vanilla hook used as an example, see {@link btw.community.example.mixin.WorldServerMixin}.
+ *
  * @see api.achievement.AchievementEventDispatcher
  * @see api.achievement.AchievementEventDispatcher.AchievementEvent
  */

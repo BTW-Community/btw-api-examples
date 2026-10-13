@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(WorldServer.class)
 public class WorldServerMixin {
     /**
+     * Hook that is called at the end of each server tick
      * @see ExampleAchievementTrigger
      */
     @Inject(method = "tick", at = @At("TAIL"))
